@@ -12,7 +12,7 @@ const hour = minute * 60;
 const day = hour * 24;
 
 // set the exactly date & times where to subtract current times.
-let getDate = "nov 05 2020 00:00:00";
+let getDate = "jan 10 2021 00:00:00";
 let userDate = new Date(getDate).getTime();
 let calculateDate = setInterval(intervalImplementation, second);
 
@@ -53,7 +53,7 @@ let setAllCountDownZero = value => {
 
 // when time become less than 0 it will automatically generate button
 let countEnded = () => {
-  let nextURL = '../TrialWebsite.github.io/wish-card/index.html';
+  let nextURL = '../Priyanshu.Gautam.github.io/wish-card/index.html';
   let generatedBtn = `<button class="btn-primary btn-lg">
         <a href="${nextURL}" class="textOnColor">Next</a>
         </button>`;
